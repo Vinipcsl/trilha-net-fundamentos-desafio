@@ -20,6 +20,8 @@ namespace DesafioFundamentos.Models
        string placa = Console.ReadLine();    
 
             veiculos.Add(placa);
+            Console.WriteLine($"adicionado com sucesso placa: {placa} ");
+        }
 
         public void RemoverVeiculo()
         {
